@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%)
+}
+
+.plan__title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 700;
+}
+
+.centered {
+     text-align: center; 
+}
+
+
+.content {
+    border-radius: 5%;
+    max-width: 22rem;
+    /* min-height: 500px; */
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.content img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.content__title {
+    padding: 1.5rem 0 1rem;
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+.content__text {
+    margin-bottom: 10px;
+}
+
+.plan__card {
+    background-color: hsl(225, 100%, 98%);
+    margin: 0 1.5rem 1rem;
+}
+
+.plan__title {
+    font-weight: 700;
+    margin: 10px 0 15px;
+}
+
+.plan__link {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.plan__button {
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.card-title {
+    margin: 0;
+}
+
+.proceed-button {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 5px 10px hsl(217, 8%, 61%, 0.05);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1rem 1rem 1.1rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.cancel-button {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    padding: 1rem 1rem 1.1rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
