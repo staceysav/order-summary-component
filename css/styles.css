@@ -39,7 +39,7 @@ p {
     padding: 1.5rem 0 1rem;
     font-weight: 800;
     margin: 0;
-    
+    font-size: 24px;
 }
 
 .content__text {
@@ -52,6 +52,7 @@ p {
 }
 
 .plan__title {
+    font-size: 16px;
     font-weight: 700;
     margin: 10px 0 15px;
 }
@@ -75,7 +76,7 @@ p {
 
 .proceed-button {
     background-color: hsl(245, 75%, 52%);
-    box-shadow: 5px 10px hsl(217, 8%, 61%, 0.05);
+    box-shadow: 0 25px 20px hsl(225, 67%, 88%);
     font-size: 12px;
     font-weight: 700;
     padding: 1rem 1rem 1.1rem;
