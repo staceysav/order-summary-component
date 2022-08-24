@@ -6,6 +6,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
 }
 
 p {
