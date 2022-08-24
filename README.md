@@ -51,7 +51,8 @@ The Proceed to Payment, Cancel Order and Change buttons change their color when 
 
 ### Useful resources
 
-- Bootstrap documentation.
+- Bootstrap documentation
+- [Tool for creating shadows] (https://www.cssmatic.com/box-shadow)
 
 ## Author
 
